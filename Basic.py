@@ -15,3 +15,16 @@ if num%2==0:
     print("Even")
 else:
     print("Odd")
+    
+#find largest of 3 numbers
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+c=int(input("Enter first number: "))
+
+if a>b and a>c:
+    print("a is largest number ")
+elif b>a and b>c:
+    print("b is largest number")
+else:
+    print("c is largest num")
+    
