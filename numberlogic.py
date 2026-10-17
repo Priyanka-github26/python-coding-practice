@@ -7,3 +7,13 @@ while number>0:
     sum= sum+digit                  
     number=number//10               # // integer division : for removing last digit
 print("Sum of digits:", sum)
+
+#Reverse a number
+number=int(input("Enter a number: "))
+reverse=0
+
+while number>0:
+    digit=number % 10
+    reverse=reverse * 10 + digit
+    number=number//10
+print("Reverse a number:", reverse)
