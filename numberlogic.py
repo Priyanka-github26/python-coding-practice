@@ -17,3 +17,17 @@ while number>0:
     reverse=reverse * 10 + digit
     number=number//10
 print("Reverse a number:", reverse)
+
+#Palindrome 
+number=int(input("Enter a number :" ))
+original=number
+reverse=0
+while number>0:
+    digit=number%10
+    reverse=reverse*10+digit
+    number=number//10
+if original==reverse:
+    print("YES it is palindrome")
+else:
+    print("NO not a palindrome")
+    
