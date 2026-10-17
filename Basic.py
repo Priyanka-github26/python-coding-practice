@@ -19,7 +19,7 @@ else:
 #find largest of 3 numbers
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
-c=int(input("Enter first number: "))
+c=int(input("Enter third number: "))
 
 if a>b and a>c:
     print("a is largest number ")
@@ -28,3 +28,7 @@ elif b>a and b>c:
 else:
     print("c is largest num")
     
+#Multiplication table from 1 to 10
+num=int(input("Enter the number:"))
+for i in range(1,11):
+    print(num,"x", i, "=" , num*i)
