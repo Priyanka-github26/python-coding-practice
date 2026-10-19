@@ -8,7 +8,6 @@ if text==reverse:
 else:
     print("NOt a Palindrome")
     
-    
 #using loop
 text=input("Enter a string:")
 reverse=""
