@@ -32,3 +32,9 @@ else:
 num=int(input("Enter the number:"))
 for i in range(1,11):
     print(num,"x", i, "=" , num*i)
+    
+
+#Leetcode problem 2235 Add 2 integers
+class Solution:
+    def sum(self, num1: int, num2: int) -> int:
+        return num1 + num2
