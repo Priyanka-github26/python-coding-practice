@@ -10,3 +10,11 @@ else:
             break
     else:
         print("Yes, Prime Number")
+
+
+# Factors of a number
+num = int(input("Enter the number: "))
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        print(i, end=" ")
